@@ -1,4 +1,6 @@
 import About from "../About/About";
+import Advantage from "../Advantage/Advantage";
+import Counter from "../Counter/Counter";
 import Development from "../Development/Development";
 import Feature from "../Feature/Feature";
 import Functional from "../Functional/Functional";
@@ -18,6 +20,8 @@ const Home = () => {
       <Services/>
       <Functional/>
       <Development/>
+      <Advantage/>
+      <Counter/>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <Link class="navbar-brand" to="/">
           <img src="https://i.ibb.co/7YfSxrr/logo-white.png" alt="" />
@@ -47,9 +47,9 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <div class="d-flex  align-items-center ">
+          <div class="d-flex  align-items-center text-white">
             <button class="btn px-4 border-end border-start" type="submit">
-              <FaSearch />
+              <FaSearch color="white"/>
             </button>
             <div className="d-flex">
               <div className="px-3">

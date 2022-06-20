@@ -1,0 +1,12 @@
+.advantage-box {
+    background-color: #f7f7f7;
+}
+
+.advantage-card{
+    padding:0 50px;
+    padding-top: 20px;
+}
+.advantage h5{
+    font-size: 40px;
+    line-height: 46px;
+}
