@@ -1,0 +1,12 @@
+.client{
+    background-color: #F7F7F7;
+}
+.client-img{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+.client-img img{
+    height: 100%;
+    border-radius: 50%;
+}

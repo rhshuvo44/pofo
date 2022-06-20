@@ -4,8 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 const Slide = () => {
+  
   return (
-    <div className="container py-5">
+    <section className="py-5">
+        <div className="container py-5">
       <Swiper
         spaceBetween={50}
         slidesPerView={4}
@@ -54,6 +56,7 @@ const Slide = () => {
         </SwiperSlide>
       </Swiper>
     </div>
+    </section>
   );
 };
 

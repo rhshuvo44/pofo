@@ -1,5 +1,6 @@
 import About from "../About/About";
 import Advantage from "../Advantage/Advantage";
+import Client from "../Client/Client";
 import Counter from "../Counter/Counter";
 import Development from "../Development/Development";
 import Feature from "../Feature/Feature";
@@ -26,6 +27,7 @@ const Home = () => {
       <Counter />
       <Video />
       <Slide />
+      <Client/>
     </div>
   );
 };
