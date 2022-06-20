@@ -1,0 +1,33 @@
+.about {
+  background-image: url("../../images/homepage-option17-banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+.about h5 {
+  color: #ff214f;
+}
+.about h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.about-icon {
+  color: #ff214f;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    background-color: #ededed;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .about h1 {
+    font-size: 20px;
+  }
+  .about-icon {
+    margin: 0 auto;
+  }
+}

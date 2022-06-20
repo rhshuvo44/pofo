@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <Link class="navbar-brand" to="/">
-          Navbar
+          <img src="https://i.ibb.co/7YfSxrr/logo-white.png" alt="" />
         </Link>
         <button
           class="navbar-toggler"
@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
             <li class="nav-item">
               <Link class="nav-link active" aria-current="page" to="#y">
-                Home
+                About
               </Link>
             </li>
             <li class="nav-item">

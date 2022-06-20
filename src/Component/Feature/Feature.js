@@ -22,12 +22,12 @@ const Feature = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-3">
-            <div class="card">
+            <div class="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <FaTools />
               </div>
               <div class="card-body mb-5">
-                <h5 class="card-title">Pixel Perfect Design</h5>
+                <h6 class="card-title">Pixel Perfect Design</h6>
                 <p class="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
@@ -36,12 +36,12 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="card">
+            <div class="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <FaLayerGroup />
               </div>
               <div class="card-body mb-5">
-                <h5 class="card-title">Full Documentation</h5>
+                <h6 class="card-title">Full Documentation</h6>
                 <p class="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
@@ -50,12 +50,12 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="card">
+            <div class="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <BsScissors />
               </div>
               <div class="card-body mb-5">
-                <h5 class="card-title">Reasonable Pricing</h5>
+                <h6 class="card-title">Reasonable Pricing</h6>
                 <p class="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
@@ -64,12 +64,12 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="card">
+            <div class="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <FaLock />
               </div>
               <div class="card-body mb-5">
-                <h5 class="card-title">User-friendly Admin</h5>
+                <h6 class="card-title">User-friendly Admin</h6>
                 <p class="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
