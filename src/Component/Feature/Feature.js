@@ -1,5 +1,5 @@
-import { FaTools, FaLayerGroup, FaLock } from "react-icons/fa";
 import { BsScissors } from "react-icons/bs";
+import { FaLayerGroup, FaLock, FaTools } from "react-icons/fa";
 import "./Feature.css";
 
 const Feature = () => {
