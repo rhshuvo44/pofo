@@ -1,0 +1,36 @@
+.divider {
+  width: 100px;
+  color: #ff214f;
+  height: 1px;
+  margin: 0 auto;
+}
+#services .services-info {
+  display: none;
+  height: 100%;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff214f;
+}
+#services .services-box {
+  position: relative;
+  perspective: 500px;
+}
+#services .services-box:hover .services-info {
+  display: flex;
+}
+/* #services .services-box:hover .services-card {
+  transform: rotateX(180deg);
+}
+#services .services-box .services-info {
+    transform: rotateX(180deg);
+  } */
+
+
+
+
+
