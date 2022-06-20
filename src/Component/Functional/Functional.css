@@ -1,0 +1,29 @@
+.functional{
+background-color: #555555;
+}
+.functional h5 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .functional .functional-info li {
+    font-size: 14px;
+    background-color: transparent;
+  }
+  .functional .functional-btn {
+    background-color: #fff ;
+    color: black;
+    margin-top: 20px;
+  }
+  .functional .functional-btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  @media only screen and (max-width: 768px) {
+    .functional h5 {
+      font-size: 25px;
+    }
+    .functional img{
+      width: 100%;
+    }
+  }
