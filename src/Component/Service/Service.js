@@ -12,7 +12,7 @@ const Service = () => {
                 <div class="col-md-6  service-img">
                   <img
                     src="https://i.ibb.co/XJbkwTT/homepage-option17-image-01.jpg"
-                    class="img-fluid rounded-start"
+                    class="img-fluid"
                     alt="..."
                   />
                 </div>

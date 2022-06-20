@@ -1,29 +1,93 @@
-import React from 'react';
-
+import React from "react";
+import CountUp from "react-countup";
+import { FiMonitor,FiMessageCircle } from "react-icons/fi";
+import { FaCamera ,FaLaptop} from "react-icons/fa";
 const Counter = () => {
-    return (
-        <section className='py-5'>
-            <div className="container">
-                <div class="row">
-                    <div className="col-md-3">
-                        <div className=''>
-                            <div>
-
-                            </div>
-                            <div>
-                                <h1>350</h1>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3"></div>
-                    <div className="col-md-3"></div>
+  
+  return (
+    <section className="py-5">
+      <div className="container">
+        <div class="row">
+          <div className="col-md-3">
+            <div class=" mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <div style={{ fontSize: 40 }}>
+                    <FiMonitor />
+                  </div>
                 </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <CountUp end={350} />
+                    </h5>
+                    <p class="card-text">HAPPY CLIENTS</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-        </section>
-    );
+          </div>
+          <div className="col-md-3">
+          <div class=" mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <div style={{ fontSize: 40 }}>
+                  <FaCamera />;
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <CountUp end={350} />
+                    </h5>
+                    <p class="card-text">HAPPY CLIENTS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+          <div class=" mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <div style={{ fontSize: 40 }}>
+                    <FaLaptop />
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <CountUp end={350} />
+                    </h5>
+                    <p class="card-text">HAPPY CLIENTS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3">
+          <div class=" mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <div style={{ fontSize: 40 }}>
+                    <FiMessageCircle />
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <CountUp end={350} />
+                    </h5>
+                    <p class="card-text">HAPPY CLIENTS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Counter;
