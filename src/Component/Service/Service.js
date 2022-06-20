@@ -17,11 +17,11 @@ const Service = () => {
                   />
                 </div>
                 <div class="col-md-6">
-                  <div class="card-body bg-dark p-5 service-box">
+                  <div class="card-body bg-dark py-4 px-5">
                     <p class="text-muted">Build perfect websites</p>
                     <h5
-                      style={{ fontSize: 28 }}
-                      class="card-title text-white my-4"
+                      style={{ fontSize: 27 }}
+                      class="card-title text-white mb-4"
                     >
                       Unlimited power and customization possibilities
                     </h5>
@@ -33,7 +33,7 @@ const Service = () => {
                       simply dummy text.
                     </p>
                     <p class="card-text">
-                      <button type="button" class="btn btn-outline-light mt-2">
+                      <button type="button" class="btn btn-outline-light mb-3">
                         <FaPlayCircle /> READ MORE
                       </button>
                     </p>
@@ -53,11 +53,11 @@ const Service = () => {
                   />
                 </div>
                 <div class="col-md-6">
-                  <div class="card-body bg-dark p-5">
+                  <div class="card-body bg-dark py-4 px-5">
                     <p class="text-muted">Unique digital experiences</p>
                     <h5
-                      style={{ fontSize: 28 }}
-                      class="card-title text-white my-4"
+                      style={{ fontSize: 27 }}
+                      class="card-title text-white mb-4"
                     >
                       Pixel perfect design and clear code delivered to you
                     </h5>
@@ -69,7 +69,7 @@ const Service = () => {
                       simply dummy text.
                     </p>
                     <p class="card-text">
-                      <button type="button" class="btn btn-outline-light mt-2">
+                      <button type="button" class="btn btn-outline-light mb-3">
                         <FaPlayCircle /> READ MORE
                       </button>
                     </p>
