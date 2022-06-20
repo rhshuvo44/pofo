@@ -1,4 +1,5 @@
 import About from "../About/About";
+import Development from "../Development/Development";
 import Feature from "../Feature/Feature";
 import Functional from "../Functional/Functional";
 import Information from "../Information/Information";
@@ -16,6 +17,7 @@ const Home = () => {
       <Parallax/>
       <Services/>
       <Functional/>
+      <Development/>
     </div>
   );
 };
