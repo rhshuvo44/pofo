@@ -8,6 +8,7 @@ import Information from "../Information/Information";
 import Parallax from "../Parallax/Parallax";
 import Service from "../Service/Service";
 import Services from "../Services/Services";
+import Video from "../Video/Video";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Development/>
       <Advantage/>
       <Counter/>
+      <Video/>
     </div>
   );
 };
