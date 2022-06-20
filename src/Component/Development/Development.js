@@ -1,4 +1,7 @@
+import { BsFillGiftFill } from "react-icons/bs";
 import { FaPlayCircle } from "react-icons/fa";
+import { FiMonitor } from "react-icons/fi";
+import { GoBook } from "react-icons/go";
 import "./Development.css";
 
 const Development = () => {
@@ -38,8 +41,70 @@ const Development = () => {
       </div>
      </div>
      <div className="container">
-     <hr/>
-
+     <hr className="mb-5"/>
+     <div className="row pb-5">
+                    <div className="col-md-4">
+                      <div class=" mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-2">
+                          <div className="parallax-icon">
+                            <FiMonitor />
+                            </div>
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <p class="fw-bold">Modern Framework</p>
+                              <p class="card-text">
+                              Lorem Ipsum is simply text the printing and typesetting standard industry.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class=" mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-2">
+                          <div className="parallax-icon">
+                            <GoBook />
+                            </div>
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <p style={{ fontSize: 14 }} class="fw-bold">
+                              Web Interactive
+                              </p>
+                              <p class="card-text">
+                              Lorem Ipsum is simply text the printing and typesetting standard industry.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div class=" mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-2">
+                            <div className="parallax-icon">
+                            <BsFillGiftFill />
+                            </div>
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <p style={{ fontSize: 13 }} class="fw-bold">
+                              Graphic Design
+                              </p>
+                              <p class="card-text">
+                              Lorem Ipsum is simply text the printing and typesetting standard industry.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
      </div>
     </section>
   );
