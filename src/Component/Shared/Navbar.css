@@ -1,0 +1,7 @@
+.menu {
+  z-index: 99;
+  position: sticky;
+  top: 50;
+  background-color: black;
+  color: #fff;
+}

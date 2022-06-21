@@ -82,8 +82,8 @@ const Footer = () => {
 
                 <div className="row">
                   <div className="col-md-12 d-flex align-items-center">
-                    <div className="col-md-2">
-                      <img src={blog1} class="img-fluid" alt="..." />
+                    <div className="col-md-2 ">
+                      <img style={{width:60}} src={blog1} class="img-fluid" alt="..." />
                     </div>
                     <div className="col-md-10 mx-2">
                       <a className="footer-blog-title" href="w">
@@ -98,11 +98,11 @@ const Footer = () => {
                     </div>
                   </div>
                   <hr />
-                  <div className="col-md-12 d-flex align-items-center">
-                    <div className="col-md-2">
-                      <img src={blog1} class="img-fluid" alt="..." />
+                  <div className="col-12 d-flex align-items-center">
+                    <div className="col-2">
+                      <img style={{width:60}} src={blog1} class="img-fluid" alt="..." />
                     </div>
-                    <div className="col-md-10 mx-2">
+                    <div className="col-10 mx-2">
                       <a className="footer-blog-title" href="w">
                         Design is not just what looks...
                       </a>
@@ -117,7 +117,7 @@ const Footer = () => {
                   <hr />
                   <div className="col-md-12 d-flex  align-items-center">
                     <div className="col-md-2">
-                      <img src={blog1} class="img-fluid" alt="..." />
+                      <img style={{width:60}} src={blog1} class="img-fluid" alt="..." />
                     </div>
                     <div className="col-md-10 mx-2">
                       <a className="footer-blog-title" href="w">

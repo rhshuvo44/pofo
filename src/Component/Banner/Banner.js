@@ -1,21 +1,20 @@
-import React from "react";
-import img1 from "../../images/homepage-5-slider-img-1.jpg";
-import img2 from "../../images/homepage-5-slider-img-2.jpg";
-import img3 from "../../images/homepage-5-slider-img-3.jpg";
+import { FaPlayCircle } from "react-icons/fa";
+import "./Banner.css";
+
 
 const Banner = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      className="carousel slide"
+      class="carousel slide banner text-center"
       data-bs-ride="carousel"
     >
-      <div className="carousel-indicators">
+      <div class="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
-          className="active"
+          class="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -32,46 +31,67 @@ const Banner = () => {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={img1} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div className="slider-1 d-flex justify-content-center align-items-center text-white">
+            <div class="slider-info d-none d-md-block">
+              <p>we work hard, we play hard</p>
+              <h1>
+                We are delivering <br />
+                beautiful products
+              </h1>
+              <button type="button" class="btn info-btn mb-3">
+                  <FaPlayCircle /> Explore Work
+                </button>
+            </div>
           </div>
         </div>
-        <div className="carousel-item">
-          <img src={img2} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+        <div class="carousel-item">
+        <div className="slider-2 d-flex justify-content-center align-items-center text-white">
+            <div class="slider-info d-none d-md-block">
+              <p>we work hard, we play hard</p>
+              <h1>
+                We are delivering <br />
+                beautiful products
+              </h1>
+              <button type="button" class="btn info-btn mb-3">
+                  <FaPlayCircle /> Explore Work
+                </button>
+            </div>
           </div>
         </div>
-        <div className="carousel-item">
-          <img src={img3} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+        <div class="carousel-item">
+          <div className="slider-3 d-flex justify-content-center align-items-center text-white">
+            <div class="slider-info d-none d-md-block">
+              <p>we work hard, we play hard</p>
+              <h1>
+                We are delivering <br />
+                beautiful products
+              </h1>
+              <button type="button" class="btn info-btn mb-3">
+                  <FaPlayCircle /> Explore Work
+                </button>
+            </div>
           </div>
         </div>
       </div>
       <button
-        className="carousel-control-prev"
+        class="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
       <button
-        className="carousel-control-next"
+        class="carousel-control-next"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
   );

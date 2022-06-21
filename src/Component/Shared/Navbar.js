@@ -1,9 +1,10 @@
 import { FaDribbble, FaFacebookF, FaTwitter, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav  className="navbar menu navbar-expand-lg bg-transparent ">
       <div class="container">
         <Link class="navbar-brand" to="/">
           <img src="https://i.ibb.co/7YfSxrr/logo-white.png" alt="" />
@@ -22,28 +23,33 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="#y">
+              <Link class="nav-link active  text-white" aria-current="page" to="#y">
                 Home
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="#y">
+              <Link class="nav-link active  text-white" aria-current="page" to="#y">
                 About
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="#y">
-                Home
+              <Link class="nav-link active  text-white" aria-current="page" to="#y">
+                Portfolio
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="#y">
-                Home
+              <Link class="nav-link active  text-white" aria-current="page" to="#y">
+                Services
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="#y">
-                Home
+              <Link class="nav-link active  text-white" aria-current="page" to="#y">
+                Client
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link active  text-white" aria-current="page" to="#y">
+                Blog
               </Link>
             </li>
           </ul>

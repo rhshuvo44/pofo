@@ -6,7 +6,7 @@ import play from "../../images/icon-play-white.png";
 const Video = () => {
   return (
     <section className="video-section">
-      <div className="container py-5 text-center">
+      <div className="container p-5 text-center">
         <div className="col-md-8 m-auto py-5">
           <a
             className=""

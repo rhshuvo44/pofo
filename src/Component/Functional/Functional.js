@@ -5,7 +5,7 @@ import { FaPlayCircle, FaCheck } from "react-icons/fa";
 const Functional = () => {
   return (
     <section className="py-5 functional">
-      <div className="container-fuild py-5">
+      <div className="container-fuild p-5">
         <div className="row flex-row-reverse">
           <div className="col-md-5">
             <div class="">

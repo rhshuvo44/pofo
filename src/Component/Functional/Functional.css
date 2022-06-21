@@ -22,7 +22,8 @@ background-color: #555555;
   }
   @media only screen and (max-width: 768px) {
     .functional h5 {
-      font-size: 25px;
+      font-size: 23px;
+      line-height: 30px;
     }
     .functional img{
       width: 100%;
