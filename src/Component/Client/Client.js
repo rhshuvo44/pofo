@@ -23,12 +23,22 @@ const Client = () => {
             // install Swiper modules
             modules={[Pagination, A11y]}
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={1}
+            breakpoints={{
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 768px
+              768: {
+                slidesPerView: 3,
+              },
+            }}
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
           >
-            <SwiperSlide>
+            <SwiperSlide style={{ height: 400 }}>
               <div class="card p-4">
                 <div className="client-img">
                   <img src={avatar1} class="card-img-top img-fuild" alt="..." />

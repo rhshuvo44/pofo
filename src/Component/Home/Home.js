@@ -1,5 +1,7 @@
 import About from "../About/About";
 import Advantage from "../Advantage/Advantage";
+import Banner from "../Banner/Banner";
+import Blog from "../Blog/Blog";
 import Client from "../Client/Client";
 import Counter from "../Counter/Counter";
 import Development from "../Development/Development";
@@ -15,6 +17,7 @@ import Video from "../Video/Video";
 const Home = () => {
   return (
     <div>
+      <Banner/>
       <About />
       <Feature />
       <Service />
@@ -28,6 +31,7 @@ const Home = () => {
       <Video />
       <Slide />
       <Client/>
+      <Blog/>
     </div>
   );
 };

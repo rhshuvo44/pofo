@@ -22,7 +22,7 @@ const Advantage = () => {
                     <p class="top-title">
                       We create premium designs and technology
                     </p>
-                    <h5>
+                    <h5 >
                       we design brand, digital experience that engage the right
                       customers.
                     </h5>

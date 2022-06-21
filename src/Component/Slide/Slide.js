@@ -1,4 +1,3 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -10,7 +9,17 @@ const Slide = () => {
         <div className="container py-5">
       <Swiper
         spaceBetween={50}
-        slidesPerView={4}
+        slidesPerView={1}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 4,
+          },
+        }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >

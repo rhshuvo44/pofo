@@ -31,7 +31,7 @@ const Counter = () => {
               <div class="row g-0">
                 <div class="col-md-2">
                   <div style={{ fontSize: 40 }}>
-                    <FaCamera />;
+                    <FaCamera />
                   </div>
                 </div>
                 <div class="col-md-10">

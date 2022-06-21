@@ -1,0 +1,15 @@
+
+.blog-img{
+    overflow: hidden;
+}
+ a:hover{
+    color:#ff214f ;
+}
+.blog-card:hover img {
+  opacity: 0.9;
+  transform: scale(1.2, 1.2);
+  transition: all 0.3s ease 0s;
+}
+a{
+    text-decoration: none;
+}
