@@ -24,12 +24,12 @@ const Navbar = () => {
       }}
       className={`navbar menu navbar-expand-lg ${navSize}`}
     >
-      <div class="container">
-        <Link class="navbar-brand" to="/">
+      <div className="container">
+        <Link className="navbar-brand" to="/">
           <img src="https://i.ibb.co/7YfSxrr/logo-white.png" alt="" />
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -37,58 +37,58 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+            <li className="nav-item">
               <Link
-                class="nav-link active  text-white"
+                className="nav-link active  text-white"
                 aria-current="page"
                 to="/"
               >
                 Home
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link active  text-white"
+                className="nav-link active  text-white"
                 aria-current="page"
                 href="#about"
               >
                 About
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link active  text-white"
+                className="nav-link active  text-white"
                 aria-current="page"
                 href="#portfolio"
               >
                 Portfolio
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link active  text-white"
+                className="nav-link active  text-white"
                 aria-current="page"
                 href="#services"
               >
                 Services
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link active  text-white"
+                className="nav-link active  text-white"
                 aria-current="page"
                 href="#client"
               >
                 Client
               </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <a
-                class="nav-link active  text-white"
+                className="nav-link active  text-white"
                 aria-current="page"
                 href="#blog"
               >
@@ -96,8 +96,8 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div class="d-flex  align-items-center text-white">
-            <button class="btn px-4 border-end border-start" type="submit">
+          <div className="d-flex  align-items-center text-white">
+            <button className="btn px-4 border-end border-start" type="submit">
               <FaSearch color="white" />
             </button>
             <div className="d-flex">

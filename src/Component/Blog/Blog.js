@@ -1,4 +1,3 @@
-import React from "react";
 import blog1 from "../../images/blog-img49.jpg";
 import blog2 from "../../images/blog-img50.jpg";
 import blog3 from "../../images/blog-img51.jpg";
@@ -17,9 +16,9 @@ const Blog = () => {
         <div className="mt-5"></div>
         <div className="row">
           <div className="col-md-3">
-            <div class="blog-card my-3">
+            <div className="blog-card my-3">
               <div className="blog-img">
-                <img src={blog1} class="card-img-top" alt="..." />
+                <img src={blog1} className="card-img-top" alt="..." />
               </div>
               <div>
                 <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
@@ -44,9 +43,9 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="blog-card my-3">
+            <div className="blog-card my-3">
               <div className="blog-img">
-                <img src={blog2} class="card-img-top" alt="..." />
+                <img src={blog2} className="card-img-top" alt="..." />
               </div>
               <div>
                 <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
@@ -70,9 +69,9 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="blog-card my-3">
+            <div className="blog-card my-3">
               <div className="blog-img">
-                <img src={blog3} class="card-img-top" alt="..." />
+                <img src={blog3} className="card-img-top" alt="..." />
               </div>
               <div>
                 <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
@@ -96,9 +95,9 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="blog-card my-3">
+            <div className="blog-card my-3">
               <div className="blog-img">
-                <img src={blog4} class="card-img-top" alt="..." />
+                <img src={blog4} className="card-img-top" alt="..." />
               </div>
               <div>
                 <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>

@@ -1,7 +1,6 @@
-import React from "react";
 import { FaPlayCircle } from "react-icons/fa";
-import "./Video.css";
 import play from "../../images/icon-play-white.png";
+import "./Video.css";
 
 const Video = () => {
   return (
@@ -29,7 +28,7 @@ const Video = () => {
               to date, structured coding framework so that your development team
               can take it to the next level with eas
             </p>
-            <button type="button" class="btn video-btn mb-3">
+            <button type="button" className="btn video-btn mb-3">
               <FaPlayCircle /> ALL ADVANTAGES
             </button>
           </div>

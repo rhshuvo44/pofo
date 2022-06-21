@@ -1,7 +1,11 @@
 .advantage-box {
     background-color: #f7f7f7;
 }
-
+.advantage img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
 .advantage-card{
     padding:0 50px;
     padding-top: 20px;

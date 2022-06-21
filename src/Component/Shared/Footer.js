@@ -1,14 +1,9 @@
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaGooglePlusG,
-  FaInstagramSquare,
-  FaCaretRight,
+    FaCaretRight, FaFacebookF, FaGooglePlusG,
+    FaInstagramSquare, FaTwitter
 } from "react-icons/fa";
-import "./Footer.css";
 import blog1 from "../../images/blog-img49.jpg";
-import blog2 from "../../images/blog-img50.jpg";
-import blog3 from "../../images/blog-img51.jpg";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -83,7 +78,7 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-md-12 d-flex align-items-center">
                     <div className="col-md-2 ">
-                      <img style={{width:60}} src={blog1} class="img-fluid" alt="..." />
+                      <img style={{width:60}} src={blog1} className="img-fluid" alt="..." />
                     </div>
                     <div className="col-md-10 mx-2">
                       <a className="footer-blog-title" href="w">
@@ -100,7 +95,7 @@ const Footer = () => {
                   <hr />
                   <div className="col-12 d-flex align-items-center">
                     <div className="col-2">
-                      <img style={{width:60}} src={blog1} class="img-fluid" alt="..." />
+                      <img style={{width:60}} src={blog1} className="img-fluid" alt="..." />
                     </div>
                     <div className="col-10 mx-2">
                       <a className="footer-blog-title" href="w">
@@ -117,7 +112,7 @@ const Footer = () => {
                   <hr />
                   <div className="col-md-12 d-flex  align-items-center">
                     <div className="col-md-2">
-                      <img style={{width:60}} src={blog1} class="img-fluid" alt="..." />
+                      <img style={{width:60}} src={blog1} className="img-fluid" alt="..." />
                     </div>
                     <div className="col-md-10 mx-2">
                       <a className="footer-blog-title" href="w">
@@ -151,15 +146,15 @@ const Footer = () => {
                   typesetting industry. Lorem Ipsum is simply dummy text of the
                   printing and typesetting industry
                 </p>
-                <div class="input-group mb-3">
+                <div className="input-group mb-3">
                   <input
                     style={{ backgroundColor: "transparent" }}
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter your email"
                   />
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">
+                  <div className="input-group-append">
+                    <button className="btn btn-outline-secondary" type="button">
                       <FaCaretRight />
                     </button>
                   </div>
@@ -173,96 +168,96 @@ const Footer = () => {
                 </h6>
                 <div className="row">
                   <div className="col-md-4">
-                    <div class="footer-box">
+                    <div className="footer-box">
                       <div className="footer-img">
                         <img
                           src="https://scontent.cdninstagram.com/v/t51.29350-15/233600294_360999352162112_4596019890862215645_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=xfQKD40Cz8oAX8MuWHI&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT98yJ_vRLhDADrZKIHbzFozI6sfZeLQA8N_z2rY8y1_CA&oe=62B68FC7"
-                          class="card-img-top "
+                          className="card-img-top "
                           alt="..."
                         />
                       </div>
                       <div className="footer-box-info">
-                        <p class="card-text">
+                        <p className="card-text">
                           <FaInstagramSquare />
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <div class="footer-box">
+                    <div className="footer-box">
                       <div className="footer-img">
                         <img
                           src="https://scontent.cdninstagram.com/v/t51.29350-15/232554828_570855994045781_6060329773827050792_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=UO7uVbX7uYMAX9EQqv3&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-tOX3NjNmruILj1mtt73sHQQKbNzZIz4d7UDuFXOWTeg&oe=62B6AAA7"
-                          class="card-img-top "
+                          className="card-img-top "
                           alt="..."
                         />
                       </div>
                       <div className="footer-box-info">
-                        <p class="card-text">
+                        <p className="card-text">
                           <FaInstagramSquare />
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <div class="footer-box">
+                    <div className="footer-box">
                       <div className="footer-img">
                         <img
                           src="https://scontent.cdninstagram.com/v/t51.29350-15/232030529_794257824600226_7097279079309172508_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=CjwT4KjTwpgAX-OCEsd&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-REUTlgb7SvMFauDtnswhUEhu3W_a9vIPL55_9tOxx8A&oe=62B5CB88"
-                          class="card-img-top "
+                          className="card-img-top "
                           alt="..."
                         />
                       </div>
                       <div className="footer-box-info">
-                        <p class="card-text">
+                        <p className="card-text">
                           <FaInstagramSquare />
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <div class="footer-box">
+                    <div className="footer-box">
                       <div className="footer-img">
                         <img
                           src="https://scontent.cdninstagram.com/v/t51.29350-15/233545360_370885884554432_5291113998038922290_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=_ZBiCIiXvVwAX-cyWSY&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_uCYGKKGzWVu2dUIZQcN692mev0_JYhAn2mwZMA5OSvA&oe=62B61D87"
-                          class="card-img-top "
+                          className="card-img-top "
                           alt="..."
                         />
                       </div>
                       <div className="footer-box-info">
-                        <p class="card-text">
+                        <p className="card-text">
                           <FaInstagramSquare />
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <div class="footer-box">
+                    <div className="footer-box">
                       <div className="footer-img">
                         <img
                           src="https://scontent.cdninstagram.com/v/t51.29350-15/234085738_876019386338503_3483067604605621330_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=e9c7PlOVUwIAX-nSWlr&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-pkLq9-vyLOPk1TTnPYc6fU9BchgrJpEAsMbf0-qUK5g&oe=62B693A6"
-                          class="card-img-top "
+                          className="card-img-top "
                           alt="..."
                         />
                       </div>
                       <div className="footer-box-info">
-                        <p class="card-text">
+                        <p className="card-text">
                           <FaInstagramSquare />
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <div class="footer-box">
+                    <div className="footer-box">
                       <div className="footer-img">
                         <img
                           src="https://scontent.cdninstagram.com/v/t51.29350-15/234074107_332394125260773_7160167040315339994_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=22rFyzlF9TcAX-WoSUy&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_ZwVHPRkErsWhTWhAmOuYzjafr5IGpXN7aYAq575zhFQ&oe=62B70CDD"
-                          class="card-img-top "
+                          className="card-img-top "
                           alt="..."
                         />
                       </div>
                       <div className="footer-box-info">
-                        <p class="card-text">
+                        <p className="card-text">
                           <FaInstagramSquare />
                         </p>
                       </div>

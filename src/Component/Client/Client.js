@@ -39,70 +39,70 @@ const Client = () => {
             onSlideChange={() => console.log("slide change")}
           >
             <SwiperSlide style={{ height: 450 }}>
-              <div class="card p-4">
+              <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar1} class="card-img-top img-fuild" alt="..." />
+                  <img src={avatar1} className="card-img-top img-fuild" alt="..." />
                 </div>
 
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     I wanted to hire the best and after looking at several other
                     companies, I knew Jacob was the perfect guy for the job. He
                     is a true professional.
                   </p>
-                  <h5 class="card-title">Shoko Mugikura</h5>
-                  <p class="card-text">Design Manager</p>
+                  <h5 className="card-title">Shoko Mugikura</h5>
+                  <p className="card-text">Design Manager</p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div class="card p-4">
+              <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar2} class="card-img-top img-fuild" alt="..." />
+                  <img src={avatar2} className="card-img-top img-fuild" alt="..." />
                 </div>
 
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     I wanted to hire the best and after looking at several other
                     companies, I knew Jacob was the perfect guy for the job. He
                     is a true professional.
                   </p>
-                  <h5 class="card-title">Shoko Mugikura</h5>
-                  <p class="card-text">Design Manager</p>
+                  <h5 className="card-title">Shoko Mugikura</h5>
+                  <p className="card-text">Design Manager</p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div class="card p-4">
+              <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar3} class="card-img-top img-fuild" alt="..." />
+                  <img src={avatar3} className="card-img-top img-fuild" alt="..." />
                 </div>
 
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     I wanted to hire the best and after looking at several other
                     companies, I knew Jacob was the perfect guy for the job. He
                     is a true professional.
                   </p>
-                  <h5 class="card-title">Shoko Mugikura</h5>
-                  <p class="card-text">Design Manager</p>
+                  <h5 className="card-title">Shoko Mugikura</h5>
+                  <p className="card-text">Design Manager</p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div class="card p-4">
+              <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar4} class="card-img-top img-fuild" alt="..." />
+                  <img src={avatar4} className="card-img-top img-fuild" alt="..." />
                 </div>
 
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     I wanted to hire the best and after looking at several other
                     companies, I knew Jacob was the perfect guy for the job. He
                     is a true professional.
                   </p>
-                  <h5 class="card-title">Shoko Mugikura</h5>
-                  <p class="card-text">Design Manager</p>
+                  <h5 className="card-title">Shoko Mugikura</h5>
+                  <p className="card-text">Design Manager</p>
                 </div>
               </div>
             </SwiperSlide>

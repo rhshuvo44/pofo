@@ -6,15 +6,15 @@ const Banner = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      class="carousel slide banner text-center"
+      className="carousel slide banner text-center"
       data-bs-ride="carousel"
     >
-      <div class="carousel-indicators">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -31,44 +31,44 @@ const Banner = () => {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
         <div className="slider-1 d-flex justify-content-center align-items-center text-white">
-            <div class="slider-info d-none d-md-block">
+            <div className="slider-info d-none d-md-block">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
                 beautiful products
               </h1>
-              <button type="button" class="btn info-btn mb-3">
+              <button type="button" className="btn info-btn mb-3">
                   <FaPlayCircle /> Explore Work
                 </button>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
         <div className="slider-2 d-flex justify-content-center align-items-center text-white">
-            <div class="slider-info d-none d-md-block">
+            <div className="slider-info d-none d-md-block">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
                 beautiful products
               </h1>
-              <button type="button" class="btn info-btn mb-3">
+              <button type="button" className="btn info-btn mb-3">
                   <FaPlayCircle /> Explore Work
                 </button>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <div className="slider-3 d-flex justify-content-center align-items-center text-white">
-            <div class="slider-info d-none d-md-block">
+            <div className="slider-info d-none d-md-block">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
                 beautiful products
               </h1>
-              <button type="button" class="btn info-btn mb-3">
+              <button type="button" className="btn info-btn mb-3">
                   <FaPlayCircle /> Explore Work
                 </button>
             </div>
@@ -76,22 +76,22 @@ const Banner = () => {
         </div>
       </div>
       <button
-        class="carousel-control-prev"
+        className="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next"
+        className="carousel-control-next"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );

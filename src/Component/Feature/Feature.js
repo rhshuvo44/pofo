@@ -22,13 +22,13 @@ const Feature = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-3">
-            <div class="card mb-3">
+            <div className="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <FaTools />
               </div>
-              <div class="card-body mb-5">
-                <h6 class="card-title">Pixel Perfect Design</h6>
-                <p class="card-text">
+              <div className="card-body mb-5">
+                <h6 className="card-title">Pixel Perfect Design</h6>
+                <p className="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
                 </p>
@@ -36,13 +36,13 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="card mb-3">
+            <div className="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <FaLayerGroup />
               </div>
-              <div class="card-body mb-5">
-                <h6 class="card-title">Full Documentation</h6>
-                <p class="card-text">
+              <div className="card-body mb-5">
+                <h6 className="card-title">Full Documentation</h6>
+                <p className="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
                 </p>
@@ -50,13 +50,13 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="card mb-3">
+            <div className="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <BsScissors />
               </div>
-              <div class="card-body mb-5">
-                <h6 class="card-title">Reasonable Pricing</h6>
-                <p class="card-text">
+              <div className="card-body mb-5">
+                <h6 className="card-title">Reasonable Pricing</h6>
+                <p className="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
                 </p>
@@ -64,13 +64,13 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div class="card mb-3">
+            <div className="card mb-3">
               <div className="card-img-top text-white icon my-5">
                 <FaLock />
               </div>
-              <div class="card-body mb-5">
-                <h6 class="card-title">User-friendly Admin</h6>
-                <p class="card-text">
+              <div className="card-body mb-5">
+                <h6 className="card-title">User-friendly Admin</h6>
+                <p className="card-text">
                   Lorem Ipsum is simply text of the printing and typesetting
                   industry. Lorem Ipsum has been standard dummy
                 </p>

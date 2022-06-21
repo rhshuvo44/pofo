@@ -1,5 +1,5 @@
+import { FaLayerGroup, FaTools } from "react-icons/fa";
 import "./About.css";
-import { FaTools, FaLayerGroup } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -22,9 +22,9 @@ const About = () => {
                   <div className="card-img-top about-icon mt-5 ">
                     <FaTools />
                   </div>
-                  <div class="pe-5 mb-5">
-                    <h6 class="card-title">Pixel Perfect Design</h6>
-                    <p class="card-text m-0">
+                  <div className="pe-5 mb-5">
+                    <h6 className="card-title">Pixel Perfect Design</h6>
+                    <p className="card-text m-0">
                       Lorem Ipsum is simply text of the printing and typesetting
                       industry. Lorem Ipsum has been standard dummy
                     </p>
@@ -36,9 +36,9 @@ const About = () => {
                   <div className="card-img-top about-icon mt-5">
                     <FaLayerGroup />
                   </div>
-                  <div class="pe-5 mb-5">
-                    <h6 class="card-title">Pixel Perfect Design</h6>
-                    <p class="card-text">
+                  <div className="pe-5 mb-5">
+                    <h6 className="card-title">Pixel Perfect Design</h6>
+                    <p className="card-text">
                       Lorem Ipsum is simply text of the printing and typesetting
                       industry. Lorem Ipsum has been standard dummy
                     </p>
