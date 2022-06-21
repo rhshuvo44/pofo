@@ -1,5 +1,6 @@
 .blog-img {
   overflow: hidden;
+  transition: ease-in-out 0.2s;
 }
 .blog-title {
   text-decoration: none;
@@ -7,10 +8,12 @@
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 0;
+  transition: ease-in-out 0.2s;
 }
 .author {
   text-decoration: none;
   color: #939393;
+  transition: ease-in-out 0.2s;
 }
 .blog-title:hover {
   color: #ff214f;

@@ -9,6 +9,7 @@ import Feature from "../Feature/Feature";
 import Functional from "../Functional/Functional";
 import Information from "../Information/Information";
 import Parallax from "../Parallax/Parallax";
+import Portfolio from "../Portfolio/Portfolio";
 import Service from "../Service/Service";
 import Services from "../Services/Services";
 import Slide from "../Slide/Slide";
@@ -21,6 +22,7 @@ const Home = () => {
       <About />
       <Feature />
       <Service />
+      <Portfolio/>
       <Information />
       <Parallax />
       <Services />

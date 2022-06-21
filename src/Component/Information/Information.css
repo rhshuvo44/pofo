@@ -9,6 +9,7 @@
   background-color: black;
   color: #fff;
   margin-top: 20px;
+  transition: ease-in-out 0.2s;
 }
 .information .info-btn:hover {
   background-color: #fff;
@@ -18,8 +19,12 @@
 @media only screen and (max-width: 768px) {
   .information h5 {
     font-size: 25px;
+    text-align: center;
   }
   .information img{
     width: 100%;
+  }
+  .information .info-group li {
+    font-size: 12px;
   }
 }

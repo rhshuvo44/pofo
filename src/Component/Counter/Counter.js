@@ -2,9 +2,10 @@ import React from "react";
 import CountUp from "react-countup";
 import { FiMonitor, FiMessageCircle } from "react-icons/fi";
 import { FaCamera, FaLaptop } from "react-icons/fa";
+import './Counter.css'
 const Counter = () => {
   return (
-    <section className="py-5">
+    <section className="py-5 counter">
       <div className="container">
         <div class="row">
           <div className="col-md-3">

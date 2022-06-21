@@ -22,7 +22,7 @@ const Blog = () => {
                 <img src={blog1} class="card-img-top" alt="..." />
               </div>
               <div>
-                <p style={{ fontSize: 14, color: "#939393" }}>
+                <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
                   25 APRIL 2017 |{" "}
                   <a href="#f" className="author">
                     BY JAY BENJAMIN
@@ -49,7 +49,7 @@ const Blog = () => {
                 <img src={blog2} class="card-img-top" alt="..." />
               </div>
               <div>
-                <p style={{ fontSize: 14, color: "#939393" }}>
+                <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
                   25 APRIL 2017 |{" "}
                   <a href="#f" className="author">
                     BY JAY BENJAMIN
@@ -57,8 +57,7 @@ const Blog = () => {
                 </p>
 
                 <a href="#f" className="blog-title">
-                  I like the body. I like to design everything to do with the
-                  body.
+                  Styles come and go. Design is a language, not a style.
                 </a>
               </div>
               <hr />
@@ -76,7 +75,7 @@ const Blog = () => {
                 <img src={blog3} class="card-img-top" alt="..." />
               </div>
               <div>
-                <p style={{ fontSize: 14, color: "#939393" }}>
+                <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
                   25 APRIL 2017 |{" "}
                   <a href="#f" className="author">
                     BY JAY BENJAMIN
@@ -84,8 +83,7 @@ const Blog = () => {
                 </p>
 
                 <a href="#f" className="blog-title">
-                  I like the body. I like to design everything to do with the
-                  body.
+                  Recognizing the need is the primary condition for design.
                 </a>
               </div>
               <hr />
@@ -103,7 +101,7 @@ const Blog = () => {
                 <img src={blog4} class="card-img-top" alt="..." />
               </div>
               <div>
-                <p style={{ fontSize: 14, color: "#939393" }}>
+                <p className="mt-2" style={{ fontSize: 14, color: "#939393" }}>
                   25 APRIL 2017 |{" "}
                   <a href="#f" className="author">
                     BY JAY BENJAMIN
@@ -111,8 +109,7 @@ const Blog = () => {
                 </p>
 
                 <a href="#f" className="blog-title">
-                  I like the body. I like to design everything to do with the
-                  body.
+                  Get in over your head as often and as joyfully as possible.
                 </a>
               </div>
               <hr />
@@ -124,7 +121,6 @@ const Blog = () => {
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </section>

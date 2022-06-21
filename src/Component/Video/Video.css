@@ -11,6 +11,7 @@
     background-color: #fff;
     color: black;
     margin-top: 20px;
+    transition: ease-in-out 0.2s;
   }
   .video-section .video-btn:hover {
     background-color: transparent;

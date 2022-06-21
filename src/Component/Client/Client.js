@@ -38,7 +38,7 @@ const Client = () => {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
           >
-            <SwiperSlide style={{ height: 400 }}>
+            <SwiperSlide style={{ height: 450 }}>
               <div class="card p-4">
                 <div className="client-img">
                   <img src={avatar1} class="card-img-top img-fuild" alt="..." />

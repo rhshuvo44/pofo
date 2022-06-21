@@ -40,7 +40,7 @@ const Development = () => {
         </div>
       </div>
      </div>
-     <div className="container">
+     <div className="container develop-icon">
      <hr className="mb-5"/>
      <div className="row pb-5">
                     <div className="col-md-4">

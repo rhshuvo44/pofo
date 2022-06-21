@@ -19,6 +19,7 @@
 #services .services-box {
   position: relative;
   perspective: 500px;
+  transition: ease-in-out 0.2s;
 }
 #services .services-box:hover .services-info {
   display: flex;
