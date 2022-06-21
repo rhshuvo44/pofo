@@ -1,15 +1,25 @@
-
-.blog-img{
-    overflow: hidden;
+.blog-img {
+  overflow: hidden;
 }
- a:hover{
-    color:#ff214f ;
+.blog-title {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.author {
+  text-decoration: none;
+  color: #939393;
+}
+.blog-title:hover {
+  color: #ff214f;
+}
+.author:hover {
+  color: #ff214f;
 }
 .blog-card:hover img {
   opacity: 0.9;
   transform: scale(1.2, 1.2);
   transition: all 0.3s ease 0s;
-}
-a{
-    text-decoration: none;
 }
