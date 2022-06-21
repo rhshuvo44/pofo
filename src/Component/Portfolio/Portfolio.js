@@ -4,7 +4,7 @@ import { Tabs } from "react-bootstrap";
 
 const Portfolio = () => {
   return (
-    <sectiopn>
+    <sectiopn id="portfolio">
       <div className="container py-5">
         <Tabs
           defaultActiveKey="profile"

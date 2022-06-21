@@ -7,7 +7,7 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <section className="py-5 blog">
+    <section id="blog" className="py-5 blog">
       <div className="container py-5">
         <div className="text-center">
           <p style={{ color: "#939393" }}>PUBLISH WHAT YOU THINK</p>

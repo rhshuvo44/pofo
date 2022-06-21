@@ -3,7 +3,7 @@ import { FaTools, FaLayerGroup } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="container-fuild">
         <div className="row">
           <div className="col-md-6"></div>

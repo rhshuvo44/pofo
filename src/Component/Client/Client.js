@@ -13,7 +13,7 @@ import avatar4 from "../../images/avtar-16.jpg";
 
 const Client = () => {
   return (
-    <section className="py-5 client text-center">
+    <section id="client" className="py-5 client text-center">
       <div className="container py-5">
         <p style={{ color: "#939393" }}>WHAT PEOPLE SAY</p>
         <h1>CLIENTS WORDS</h1>
