@@ -13,6 +13,10 @@ background-blend-mode: overlay;
     color: rgb(85, 83, 83);
     background-color: transparent;
   }
+  .functional p {
+    color: rgb(102, 98, 98);
+    margin: 20px 0;
+  }
   .functional .functional-btn {
     background-color: #fff ;
     color: black;

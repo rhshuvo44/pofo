@@ -37,13 +37,37 @@
   transform: translateY(-30%);
   padding: 20px;
 }
-.portfolio-card-back .card-title{
+.portfolio-card-back .card-title {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
 }
-.portfolio-card-back .card-text{
+.portfolio-card-back .card-text {
   text-transform: uppercase;
   font-size: 14px;
   color: #939393;
+}
+
+.react-tabs__tab-list {
+  border-bottom: transparent;
+  margin: 0 !important;
+}
+.react-tabs__tab--selected {
+  background: transparent;
+  border-bottom: 1px solid black !important;
+  color: black !important;
+  border-radius: 0 !important;
+}
+.react-tabs__tab {
+    display: inline-block;
+    border: transparent;
+    color:#6f6f6f ;
+    position: relative;
+    width: auto;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.react-tabs__tab:hover{
+  border-bottom: 1px solid black 
 }

@@ -13,7 +13,7 @@ const Portfolio = () => {
     <sectiopn id="portfolio">
       <div className="container-fuild py-5">
         <Tabs>
-          <TabList style={{ width: 800, margin: "0 auto" }}>
+          <TabList className='d-flex flex-column flex-md-row justify-content-center tab-list'>
             <Tab>ALL</Tab>
             <Tab>WEB</Tab>
             <Tab>ADVENTING</Tab>

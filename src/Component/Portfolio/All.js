@@ -8,7 +8,7 @@ const All = () => {
       }}
     >
       <div className="container-fuild">
-        <div className="row">
+        <div className="row g-3">
           <div className="col-md-3 ">
             <div
               className=" wow animate__animated  animate__fadeUp"
@@ -169,7 +169,7 @@ const All = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 ">
+          <div className="col-md-3">
             <div
               className=" wow animate__animated  animate__fadeUp"
               data-wow-delay="0.12s"
