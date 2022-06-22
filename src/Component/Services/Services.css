@@ -4,34 +4,6 @@
   height: 1px;
   margin: 0 auto;
 }
-#services .services-info {
-  display: none;
-  height: 100%;
-  color: #fff;
-  padding: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #ff214f;
-  transition: ease-in-out 0.4s;
-}
-#services .services-box {
-  position: relative;
-  perspective: 500px;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  transform: rotateY(0deg);
-  transition: ease-in-out 0.4s;
-}
-#services .services-box:hover .services-info {
-  display: flex;
-}
-/* #services .services-box:hover .services-card {
-  transform: rotateX(180deg);
-}
-#services .services-box .services-info {
-    transform: rotateX(180deg);
-  } */
 .flip-card {
   width: 350px;
   height: 250px;

@@ -1,0 +1,49 @@
+.portfolio-card {
+  height: 250px;
+  overflow: hidden;
+}
+
+.portfolio-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: ease-in-out 0.2s;
+}
+
+.portfolio-card:hover .portfolio-card-inner {
+  transform: translateY(-40%);
+}
+.portfolio-card:hover .portfolio-card-back {
+  display: block;
+}
+
+.portfolio-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.portfolio-card-back {
+  display: none;
+  background-color: #fff;
+  color: black;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  transition: ease-in-out 0.2s;
+  backface-visibility: hidden;
+  transform: translateY(-30%);
+  padding: 20px;
+}
+.portfolio-card-back .card-title{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+.portfolio-card-back .card-text{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #939393;
+}

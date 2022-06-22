@@ -47,7 +47,7 @@ const Services = () => {
               style={{
                 visibility: "visible",
                 animationDelay: "0.2s",
-                animationName: "fadeIn",
+                animationName: "fadeUp",
               }}
             >
               <div className="flip-card">
