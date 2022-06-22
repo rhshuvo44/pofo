@@ -8,6 +8,7 @@ const Navbar = () => {
   const [navColor, setnavColor] = useState("transparent");
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setnavColor("#252734") : setnavColor("transparent");
+
     window.scrollY > 10 ? setnavSize("sticky-top") : setnavSize("");
   };
   useEffect(() => {
@@ -22,7 +23,7 @@ const Navbar = () => {
         backgroundColor: navColor,
         transition: "all 1s",
       }}
-      className={`navbar menu navbar-md-light bg-md-light navbar-expand-lg ${navSize}`}
+      className={`navbar menu navbar-dark navbar-expand-lg ${navSize}`}
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
@@ -37,7 +38,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span id="navIcon" className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">

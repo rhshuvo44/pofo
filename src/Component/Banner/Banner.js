@@ -33,7 +33,7 @@ const Banner = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <div className="slider-1 d-flex justify-content-center align-items-center text-white">
-            <div className="slider-info d-md-block">
+            <div className="slider-info">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
@@ -47,7 +47,7 @@ const Banner = () => {
         </div>
         <div className="carousel-item">
           <div className="slider-2 d-flex justify-content-center align-items-center text-white">
-            <div className="slider-info d-md-block">
+            <div className="slider-info">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
@@ -61,7 +61,7 @@ const Banner = () => {
         </div>
         <div className="carousel-item">
           <div className="slider-3 d-flex justify-content-center align-items-center text-white">
-            <div className="slider-info d-md-block">
+            <div className="slider-info">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
