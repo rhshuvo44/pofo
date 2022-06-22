@@ -5,12 +5,18 @@ import "./Parallax.css";
 
 const Parallax = () => {
   return (
-    <section className="parallax py-5">
+    <section
+      className="parallax py-5  wow animate__animated  animate__fadeIn"
+      style={{ visibility: "visible", animationName: "fadeIn" }}
+    >
       <div className="container-fuild">
         <div className="row">
           <div className="parallax-box mb-3">
             <div className="row flex-row-reverse g-0">
-              <div className="col-md-6 col-12">
+              <div
+                className="col-md-6 col-12  wow animate__animated  animate__fadeInRight"
+                style={{ visibility: "visible", animationName: "fadeInRight" }}
+              >
                 <img
                   src="https://i.ibb.co/30M5L1g/services-classic-07.jpg"
                   className="img-fluid"
@@ -18,7 +24,10 @@ const Parallax = () => {
                 />
               </div>
               <div className="col-md-6 col-12">
-                <div className="card-body p-5">
+                <div
+                  className="card-body p-5  wow animate__animated  animate__fadeInLeft"
+                  style={{ visibility: "visible", animationName: "fadeInLeft" }}
+                >
                   <h1 className="card-title mb-5">
                     We are delivering beautiful digital products for you
                   </h1>
@@ -33,7 +42,9 @@ const Parallax = () => {
                           </div>
                           <div className="col-md-10">
                             <div className="card-body">
-                              <p className="fw-bold">Powerful Website Builder</p>
+                              <p className="fw-bold">
+                                Powerful Website Builder
+                              </p>
                               <p className="card-text">
                                 Lorem Ipsum is simply dummy text of the printing
                                 and typesetting industry. Lorem Ipsum has been

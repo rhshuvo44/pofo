@@ -3,12 +3,18 @@ import "./Advantage.css";
 
 const Advantage = () => {
   return (
-    <section className="advantage py-5">
+    <section
+      className="advantage py-5 wow animate__animated  animate__fadeIn"
+      style={{ visibility: "visible", animationName: "fadeIn" }}
+    >
       <div className="container-fuild">
         <div className="row">
           <div className="advantage-box mb-3">
             <div className="row flex-row-reverse g-0">
-              <div className="col-md-6 col-12">
+              <div
+                className="col-md-6 col-12 wow animate__animated  animate__fadeIn"
+                style={{ visibility: "visible", animationName: "fadeIn" }}
+              >
                 <img
                   src="https://i.ibb.co/T4VNLfk/parallax-bg11.jpg"
                   className="img-fluid"
@@ -16,12 +22,15 @@ const Advantage = () => {
                 />
               </div>
               <div className="col-md-6 col-12">
-                <div className="advantage-card">
+                <div
+                  className="advantage-card wow animate__animated  animate__fadeIn"
+                  style={{ visibility: "visible", animationName: "fadeIn" }}
+                >
                   <div className="card-body">
                     <p className="top-title">
                       We create premium designs and technology
                     </p>
-                    <h5 >
+                    <h5>
                       we design brand, digital experience that engage the right
                       customers.
                     </h5>

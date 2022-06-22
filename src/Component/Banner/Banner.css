@@ -30,7 +30,6 @@
   font-size: 70px;
   font-weight: bold;
   z-index: 8;
-
   animation: fadeUp 3s;
   animation-timing-function: ease-in-out;
   white-space: nowrap;
@@ -70,5 +69,13 @@
 
   to {
     margin-top: 0%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .banner .slider-info h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
   }
 }

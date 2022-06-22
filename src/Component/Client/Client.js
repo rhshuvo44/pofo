@@ -14,7 +14,10 @@ import avatar4 from "../../images/avtar-16.jpg";
 const Client = () => {
   return (
     <section id="client" className="py-5 client text-center">
-      <div className="container py-5">
+      <div
+        className="container py-5 wow animate__animated  animate__fadeIn"
+        style={{ visibility: "visible", animationName: "fadeIn" }}
+      >
         <p style={{ color: "#939393" }}>WHAT PEOPLE SAY</p>
         <h1>CLIENTS WORDS</h1>
         <hr className="divider" />
@@ -41,7 +44,11 @@ const Client = () => {
             <SwiperSlide style={{ height: 450 }}>
               <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar1} className="card-img-top img-fuild" alt="..." />
+                  <img
+                    src={avatar1}
+                    className="card-img-top img-fuild"
+                    alt="..."
+                  />
                 </div>
 
                 <div className="card-body">
@@ -58,7 +65,11 @@ const Client = () => {
             <SwiperSlide>
               <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar2} className="card-img-top img-fuild" alt="..." />
+                  <img
+                    src={avatar2}
+                    className="card-img-top img-fuild"
+                    alt="..."
+                  />
                 </div>
 
                 <div className="card-body">
@@ -75,7 +86,11 @@ const Client = () => {
             <SwiperSlide>
               <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar3} className="card-img-top img-fuild" alt="..." />
+                  <img
+                    src={avatar3}
+                    className="card-img-top img-fuild"
+                    alt="..."
+                  />
                 </div>
 
                 <div className="card-body">
@@ -92,7 +107,11 @@ const Client = () => {
             <SwiperSlide>
               <div className="card p-4">
                 <div className="client-img">
-                  <img src={avatar4} className="card-img-top img-fuild" alt="..." />
+                  <img
+                    src={avatar4}
+                    className="card-img-top img-fuild"
+                    alt="..."
+                  />
                 </div>
 
                 <div className="card-body">

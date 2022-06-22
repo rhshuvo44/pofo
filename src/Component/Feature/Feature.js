@@ -4,7 +4,10 @@ import "./Feature.css";
 
 const Feature = () => {
   return (
-    <section className="py-5 text-center">
+    <section
+      className="py-5 text-center wow animate__animated animate__fadeIn"
+      style={{ visibility: "visible", animationName: "fadeIn" }}
+    >
       <div className="container ">
         <div className="row py-4">
           <div className="col-12 col-md-8 m-auto">
@@ -22,7 +25,13 @@ const Feature = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-3">
-            <div className="card mb-3">
+            <div
+              className="card wow animate__animated animate__fadeInUp mb-3"
+              style={{
+                visibility: "visible",
+                animationName: "fadeInUp",
+              }}
+            >
               <div className="card-img-top text-white icon my-5">
                 <FaTools />
               </div>
@@ -36,7 +45,15 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card mb-3">
+            <div
+              className="card wow animate__animated animate__fadeInUp mb-3"
+              data-wow-delay="0.2s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.2s",
+                animationName: "fadeInUp",
+              }}
+            >
               <div className="card-img-top text-white icon my-5">
                 <FaLayerGroup />
               </div>
@@ -50,7 +67,15 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card mb-3">
+            <div
+              className="card wow animate__animated animate__fadeInUp mb-3"
+              data-wow-delay="0.4s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.4s",
+                animationName: "fadeInUp",
+              }}
+            >
               <div className="card-img-top text-white icon my-5">
                 <BsScissors />
               </div>
@@ -64,7 +89,15 @@ const Feature = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card mb-3">
+            <div
+              className="card wow animate__animated animate__fadeInUp mb-3"
+              data-wow-delay="0.6s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.6s",
+                animationName: "fadeInUp",
+              }}
+            >
               <div className="card-img-top text-white icon my-5">
                 <FaLock />
               </div>

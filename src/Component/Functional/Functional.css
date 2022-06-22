@@ -1,5 +1,8 @@
 .functional{
-background-color: #555555;
+background-image: url('../../images/homepage-9-parallax-img5.jpg'),linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
 }
 .functional h5 {
     font-size: 45px;
@@ -7,6 +10,7 @@ background-color: #555555;
   }
   .functional .functional-info li {
     font-size: 14px;
+    color: rgb(85, 83, 83);
     background-color: transparent;
   }
   .functional .functional-btn {

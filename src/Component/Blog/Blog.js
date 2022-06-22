@@ -7,7 +7,10 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <section id="blog" className="py-5 blog">
-      <div className="container py-5">
+      <div
+        className="container py-5 wow animate__animated  animate__fadeIn"
+        style={{ visibility: "visible", animationName: "fadeIn" }}
+      >
         <div className="text-center">
           <p style={{ color: "#939393" }}>PUBLISH WHAT YOU THINK</p>
           <h1>LATEST BLOGS</h1>
@@ -16,7 +19,10 @@ const Blog = () => {
         <div className="mt-5"></div>
         <div className="row">
           <div className="col-md-3">
-            <div className="blog-card my-3">
+            <div
+              className="blog-card  wow animate__animated  animate__fadeUp my-3"
+              style={{ visibility: "visible", animationName: "fadeUp" }}
+            >
               <div className="blog-img">
                 <img src={blog1} className="card-img-top" alt="..." />
               </div>
@@ -43,7 +49,15 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="blog-card my-3">
+            <div
+              className="blog-card wow animate__animated  animate__fadeUp my-3"
+              data-wow-delay="0.2s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.2s",
+                animationName: "fadeUp",
+              }}
+            >
               <div className="blog-img">
                 <img src={blog2} className="card-img-top" alt="..." />
               </div>
@@ -69,7 +83,15 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="blog-card my-3">
+            <div
+              className="blog-card wow animate__animated  animate__fadeUp my-3"
+              data-wow-delay="0.4s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.4s",
+                animationName: "fadeUp",
+              }}
+            >
               <div className="blog-img">
                 <img src={blog3} className="card-img-top" alt="..." />
               </div>
@@ -95,7 +117,15 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="blog-card my-3">
+            <div
+              className="blog-card wow animate__animated  animate__fadeUp my-3"
+              data-wow-delay="0.6s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.6s",
+                animationName: "fadeUp",
+              }}
+            >
               <div className="blog-img">
                 <img src={blog4} className="card-img-top" alt="..." />
               </div>

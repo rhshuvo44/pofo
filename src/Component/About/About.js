@@ -3,11 +3,18 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section id="about" className="about">
+    <section
+      id="about"
+      className="about wow animate__animated  animate__fadeIn"
+      style={{ visibility: "visible", animationName: "fadeIn" }}
+    >
       <div className="container-fuild">
         <div className="row">
           <div className="col-md-6"></div>
-          <div className="col-md-6 col-12">
+          <div
+            className="col-md-6 col-12 wow animate__animated  animate__fadeIn"
+            style={{ visibility: "visible", animationName: "fadeIn" }}
+          >
             <h5>Easy way to build perfect websites</h5>
             <h1>Beautifully handcrafted templates for your website</h1>
             <p>
@@ -17,7 +24,10 @@ const About = () => {
               Lorem Ipsum is simply dummy text.
             </p>
             <div className="row">
-              <div className="col-md-6 col-12">
+              <div
+                className="col-md-6 col-12 wow animate__animated  animate__fadeInUp"
+                style={{ visibility: "visible", animationName: "fadeInUp" }}
+              >
                 <div>
                   <div className="card-img-top about-icon mt-5 ">
                     <FaTools />
@@ -31,7 +41,11 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-12">
+              <div
+                className="col-md-6 col-12 wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.2s"
+                style={{ visibility: "visible",animationDelay: '0.2s', animationName: "fadeInUp" }}
+              >
                 <div>
                   <div className="card-img-top about-icon mt-5">
                     <FaLayerGroup />

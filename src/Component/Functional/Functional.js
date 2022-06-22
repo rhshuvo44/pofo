@@ -7,7 +7,15 @@ const Functional = () => {
       <div className="container-fuild p-5">
         <div className="row flex-row-reverse">
           <div className="col-md-5">
-            <div className="">
+            <div
+              className="wow animate__animated  animate__fadeIn"
+              data-wow-delay="0.2s"
+              style={{
+                visibility: "visible",
+                animationDelay: "0.2s",
+                animationName: "fadeIn",
+              }}
+            >
               <div className="card-body">
                 <h5 className="card-title text-white">
                   Unique, truly responsive and functional websites
@@ -44,7 +52,10 @@ const Functional = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-7">
+          <div
+            className="col-md-7 wow animate__animated  animate__fadeIn"
+            style={{ visibility: "visible", animationName: "fadeIn" }}
+          >
             <img
               className="img-fluid"
               src="https://i.ibb.co/LhCVHMm/homepage-option15-image-3.png"

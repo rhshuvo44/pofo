@@ -1,14 +1,20 @@
 import CountUp from "react-countup";
 import { FaCamera, FaLaptop } from "react-icons/fa";
 import { FiMessageCircle, FiMonitor } from "react-icons/fi";
-import './Counter.css';
+import "./Counter.css";
 const Counter = () => {
   return (
-    <section className="py-5 counter">
+    <section
+      className="py-5 counter  wow animate__animated  animate__fadeIn"
+      style={{ visibility: "visible", animationName: "fadeIn" }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <div className=" mb-3">
+            <div
+              className=" wow animate__animated  animate__fadeInRight mb-3"
+              style={{ visibility: "visible", animationName: "fadeInRight" }}
+            >
               <div className="row g-0">
                 <div className="col-md-2">
                   <div style={{ fontSize: 40 }}>
@@ -27,7 +33,15 @@ const Counter = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className=" mb-3">
+            <div
+              className=" wow animate__animated  animate__fadeInRight mb-3"
+              data-wow-delay="0.2s"
+              style={{
+                visibility: "visible",
+                animationDelay: " 0.2s",
+                animationName: "fadeInRight",
+              }}
+            >
               <div className="row g-0">
                 <div className="col-md-2">
                   <div style={{ fontSize: 40 }}>
@@ -46,7 +60,15 @@ const Counter = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className=" mb-3">
+            <div
+              className=" wow animate__animated  animate__fadeInRight mb-3"
+              data-wow-delay="0.4s"
+              style={{
+                visibility: "visible",
+                animationDelay: " 0.4s",
+                animationName: "fadeInRight",
+              }}
+            >
               <div className="row g-0">
                 <div className="col-md-2">
                   <div style={{ fontSize: 40 }}>
@@ -65,7 +87,15 @@ const Counter = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className=" mb-3">
+            <div
+              className=" wow animate__animated  animate__fadeInRight mb-3"
+              data-wow-delay="0.6s"
+              style={{
+                visibility: "visible",
+                animationDelay: " 0.6s",
+                animationName: "fadeInRight",
+              }}
+            >
               <div className="row g-0">
                 <div className="col-md-2">
                   <div style={{ fontSize: 40 }}>

@@ -6,7 +6,10 @@ const Video = () => {
   return (
     <section className="video-section">
       <div className="container p-5 text-center">
-        <div className="col-md-8 m-auto py-5">
+        <div
+          className="col-md-8 m-auto py-5  wow animate__animated  animate__fadeIn"
+          style={{ visibility: "visible", animationName: "fadeIn" }}
+        >
           <a
             className=""
             href="https://www.youtube.com/"

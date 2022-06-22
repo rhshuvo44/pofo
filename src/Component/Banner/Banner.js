@@ -1,7 +1,6 @@
 import { FaPlayCircle } from "react-icons/fa";
 import "./Banner.css";
 
-
 const Banner = () => {
   return (
     <div
@@ -33,44 +32,44 @@ const Banner = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-        <div className="slider-1 d-flex justify-content-center align-items-center text-white">
-            <div className="slider-info d-none d-md-block">
+          <div className="slider-1 d-flex justify-content-center align-items-center text-white">
+            <div className="slider-info d-md-block">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
                 beautiful products
               </h1>
               <button type="button" className="btn info-btn mb-3">
-                  <FaPlayCircle /> Explore Work
-                </button>
+                <FaPlayCircle /> Explore Work
+              </button>
             </div>
           </div>
         </div>
         <div className="carousel-item">
-        <div className="slider-2 d-flex justify-content-center align-items-center text-white">
-            <div className="slider-info d-none d-md-block">
+          <div className="slider-2 d-flex justify-content-center align-items-center text-white">
+            <div className="slider-info d-md-block">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
                 beautiful products
               </h1>
               <button type="button" className="btn info-btn mb-3">
-                  <FaPlayCircle /> Explore Work
-                </button>
+                <FaPlayCircle /> Explore Work
+              </button>
             </div>
           </div>
         </div>
         <div className="carousel-item">
           <div className="slider-3 d-flex justify-content-center align-items-center text-white">
-            <div className="slider-info d-none d-md-block">
+            <div className="slider-info d-md-block">
               <p>we work hard, we play hard</p>
               <h1>
                 We are delivering <br />
                 beautiful products
               </h1>
               <button type="button" className="btn info-btn mb-3">
-                  <FaPlayCircle /> Explore Work
-                </button>
+                <FaPlayCircle /> Explore Work
+              </button>
             </div>
           </div>
         </div>

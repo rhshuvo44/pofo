@@ -3,7 +3,10 @@ import "./Information.css";
 
 const Information = () => {
   return (
-    <section className="py-5 information">
+    <section
+      className="py-5 information wow animate__animated  animate__fadeIn"
+      style={{ visibility: "visible", animationName: "fadeIn" }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-md-5">
@@ -41,7 +44,11 @@ const Information = () => {
             </div>
           </div>
           <div className="col-md-7">
-            <img src="https://i.ibb.co/P95P1jf/explore-work-02.png" className="img-fluid" alt="" />
+            <img
+              src="https://i.ibb.co/P95P1jf/explore-work-02.png"
+              className="img-fluid"
+              alt=""
+            />
           </div>
         </div>
       </div>

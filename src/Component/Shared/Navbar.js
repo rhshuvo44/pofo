@@ -22,7 +22,7 @@ const Navbar = () => {
         backgroundColor: navColor,
         transition: "all 1s",
       }}
-      className={`navbar menu navbar-expand-lg ${navSize}`}
+      className={`navbar menu navbar-md-light bg-md-light navbar-expand-lg ${navSize}`}
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
